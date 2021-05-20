@@ -16,7 +16,7 @@ console.log(convertFahrToCelsius(({temp:0})));
 console.log(convertFahrToCelsius("0"));
 console.log(convertFahrToCelsius(0));
 
-// A function named "checkYuGiOh
+// A algorithm function named "checkYuGiOh
 
 
 function checkYuGiOh(n){
