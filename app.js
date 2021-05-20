@@ -17,29 +17,7 @@ console.log(convertFahrToCelsius("0"));
 console.log(convertFahrToCelsius(0));
 
 // A function named "checkYuGiOh
-function checkYuGiOh(n){
-    var arr = [];
-    if (isNaN(n)) {
-        return `${n} is not a valid number.`;
-    };
-    for (let i = 1; i <= n; i++) {
-        let lres = [];
-        if (i % 2 === 0) {
-            lres.push('yu');
-        }
-        if (i % 3 === 0) {
-            lres.push('gi');
-        }
-        if (i % 5 === 0) {
-            lres.push('oh');
-        }
-       if(lres.length > 0)
-           arr.push(lres.join("-"));
-        else
-              arr.push(i);
-    }
-    return arr;
-}
+
 
 function checkYuGiOh(n){
     var arr = [];
